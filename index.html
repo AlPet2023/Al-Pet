@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Al&Pet Multi-Services — services pratiques et accompagnement entre Haïti et les États-Unis.">
+  <meta name="theme-color" content="#f28a19">
+  <title>Al&Pet Multi-Services | Votre partenaire de confiance</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#accueil" aria-label="Al&Pet Multi-Services - Accueil">
+      <img src="assets/logo-alpet.jpeg" alt="Logo Al&Pet Multi-Services">
+    </a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Ouvrir le menu">☰</button>
+    <nav id="mainNav">
+      <a href="#accueil" data-i18n="navHome">Accueil</a>
+      <a href="#services" data-i18n="navServices">Services</a>
+      <a href="#apropos" data-i18n="navAbout">À propos</a>
+      <a href="#espace-client" data-i18n="navClient">Espace client</a>
+      <a href="#contact" data-i18n="navContact">Contact</a>
+    </nav>
+    <label class="language-picker">
+      <span class="sr-only">Language</span>
+      <select id="languageSelect" aria-label="Choisir la langue">
+        <option value="fr">FR</option><option value="en">EN</option><option value="ht">KREYÒL</option>
+      </select>
+    </label>
+  </header>
+
+  <main>
+    <section class="hero" id="accueil">
+      <div class="hero-copy">
+        <span class="eyebrow" data-i18n="eyebrow">HAÏTI • ÉTATS-UNIS</span>
+        <h1 data-i18n="heroTitle">Des services utiles.<br><em>Un partenaire de confiance.</em></h1>
+        <p data-i18n="heroText">Al&Pet Multi-Services vous accompagne avec des solutions pratiques, un service humain et une expérience simple.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#services" data-i18n="discover">Découvrir nos services</a>
+          <a class="button button-outline" href="#contact" data-i18n="contactUs">Nous contacter</a>
+        </div>
+        <div class="trust-note"><span class="trust-dot"></span><span data-i18n="trust">Un accueil professionnel, à chaque étape.</span></div>
+      </div>
+      <div class="hero-card">
+        <div class="hero-card-glow"></div>
+        <img src="assets/logo-alpet.jpeg" alt="Emblème Al&Pet Multi-Services">
+        <p data-i18n="heroCard">Votre quotidien, simplifié.</p>
+      </div>
+    </section>
+
+    <section class="services section" id="services">
+      <div class="section-heading">
+        <span class="eyebrow" data-i18n="ourServices">CE QUE NOUS PROPOSONS</span>
+        <h2 data-i18n="servicesTitle">Des services pensés pour vous</h2>
+        <p data-i18n="servicesIntro">Découvrez nos domaines de service. La disponibilité et les conditions sont confirmées avec notre équipe.</p>
+      </div>
+      <div class="service-grid">
+        <article class="service-card"><div class="service-icon">↗</div><h3>Zelle</h3><p data-i18n="zelleText">Informations et accompagnement pour les services compatibles avec Zelle.</p><span class="tag" data-i18n="askDetails">Renseignements</span></article>
+        <article class="service-card"><div class="service-icon">M</div><h3>MonCash</h3><p data-i18n="moncashText">Informations sur les services MonCash et les démarches disponibles.</p><span class="tag" data-i18n="askDetails">Renseignements</span></article>
+        <article class="service-card"><div class="service-icon">N</div><h3>NatCash</h3><p data-i18n="natcashText">Accompagnement et informations concernant les services NatCash.</p><span class="tag" data-i18n="askDetails">Renseignements</span></article>
+        <article class="service-card"><div class="service-icon">P</div><h3>Pappadap</h3><p data-i18n="pappadapText">Découvrez les possibilités et les conditions des services Pappadap.</p><span class="tag" data-i18n="askDetails">Renseignements</span></article>
+        <article class="service-card"><div class="service-icon">L</div><h3>Lapoula</h3><p data-i18n="lapoulaText">Contactez-nous pour en savoir plus sur les services Lapoula.</p><span class="tag" data-i18n="askDetails">Renseignements</span></article>
+        <article class="service-card service-card-highlight"><div class="service-icon">＋</div><h3 data-i18n="otherServices">Autres services</h3><p data-i18n="otherText">Vous avez un besoin particulier ? Présentez-nous votre demande.</p><a href="#contact" class="text-link" data-i18n="talkToUs">Parlons-en →</a></article>
+      </div>
+      <p class="disclaimer" data-i18n="serviceDisclaimer">Les marques et services cités appartiennent à leurs propriétaires respectifs. Leur mention ne signifie pas qu'un partenariat officiel existe. Les opérations financières ne sont proposées que si elles sont autorisées et prises en charge par un partenaire agréé.</p>
+    </section>
+
+    <section class="about section" id="apropos">
+      <div class="about-mark">AP<span>.</span></div>
+      <div>
+        <span class="eyebrow" data-i18n="aboutEyebrow">QUI SOMMES-NOUS ?</span>
+        <h2 data-i18n="aboutTitle">La proximité au cœur de nos services.</h2>
+        <p data-i18n="aboutText">Al&Pet Multi-Services a pour ambition de rendre les démarches du quotidien plus simples grâce à un accompagnement accessible, professionnel et attentif.</p>
+        <div class="values"><div><strong>01</strong><span data-i18n="value1">Écoute</span></div><div><strong>02</strong><span data-i18n="value2">Simplicité</span></div><div><strong>03</strong><span data-i18n="value3">Confiance</span></div></div>
+      </div>
+    </section>
+
+    <section class="client-section section" id="espace-client">
+      <div class="section-heading">
+        <span class="eyebrow" data-i18n="clientEyebrow">BIENTÔT DISPONIBLE</span>
+        <h2 data-i18n="clientTitle">Votre espace client</h2>
+        <p data-i18n="clientIntro">Un espace sécurisé pourra permettre aux clients de consulter leurs demandes et leur historique une fois le système connecté.</p>
+      </div>
+      <div class="client-panel">
+        <div><div class="lock-icon">⌑</div><h3 data-i18n="clientPanelTitle">Un accès personnel et sécurisé</h3><p data-i18n="clientPanelText">La connexion, le suivi des demandes et l'historique seront activés après la mise en place d'un serveur sécurisé et des vérifications nécessaires.</p></div>
+        <span class="coming-soon" data-i18n="comingSoon">En préparation</span>
+      </div>
+      <div class="notice"><strong data-i18n="securityTitle">Sécurité importante</strong><p data-i18n="securityText">Cette première version est un site vitrine. Elle ne collecte pas de mots de passe, ne conserve pas de données personnelles et n'effectue ni ne confirme aucun transfert d'argent.</p></div>
+    </section>
+
+    <section class="contact section" id="contact">
+      <div class="section-heading">
+        <span class="eyebrow" data-i18n="contactEyebrow">PARLONS DE VOTRE BESOIN</span>
+        <h2 data-i18n="contactTitle">Contactez notre équipe</h2>
+        <p data-i18n="contactIntro">Envoyez-nous un message. Nous vous répondrons dès que vos coordonnées de contact seront configurées.</p>
+      </div>
+      <form class="contact-form" id="contactForm">
+        <label><span data-i18n="nameLabel">Nom complet</span><input required name="name" autocomplete="name" placeholder="Votre nom"></label>
+        <label><span data-i18n="emailLabel">Adresse e-mail</span><input required type="email" name="email" autocomplete="email" placeholder="nom@exemple.com"></label>
+        <label class="full"><span data-i18n="serviceLabel">Service concerné</span><select name="service"><option>Zelle</option><option>MonCash</option><option>NatCash</option><option>Pappadap</option><option>Lapoula</option><option data-i18n="otherServices">Autres services</option></select></label>
+        <label class="full"><span data-i18n="messageLabel">Votre message</span><textarea required name="message" rows="5" placeholder="Comment pouvons-nous vous aider ?"></textarea></label>
+        <button class="button button-primary" type="submit" data-i18n="sendMessage">Préparer mon message</button>
+        <p class="form-feedback full" id="formFeedback" role="status"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <a href="#accueil" class="footer-brand">Al&Pet <span>Multi-Services</span></a>
+    <p data-i18n="footerText">Des solutions pratiques, un service de confiance.</p>
+    <small>© <span id="year"></span> Al&Pet Multi-Services. <span data-i18n="rights">Tous droits réservés.</span></small>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
